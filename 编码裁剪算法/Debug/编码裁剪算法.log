@@ -1,6 +1,0 @@
-﻿  源.cpp
-E:\VScode\Xiangmu\编码裁剪算法\源.cpp(80,22): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-E:\VScode\Xiangmu\编码裁剪算法\源.cpp(80,18): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-E:\VScode\Xiangmu\编码裁剪算法\源.cpp(80,14): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-E:\VScode\Xiangmu\编码裁剪算法\源.cpp(80,10): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
-  编码裁剪算法.vcxproj -> E:\VScode\Xiangmu\编码裁剪算法\Debug\编码裁剪算法.exe

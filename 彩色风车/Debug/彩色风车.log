@@ -1,0 +1,11 @@
+﻿  game.cpp
+E:\VScode\Xiangmu\彩色风车\game.cpp(24,10): warning C4244: “初始化”: 从“double”转换到“BYTE”，可能丢失数据
+E:\VScode\Xiangmu\彩色风车\game.cpp(25,10): warning C4244: “初始化”: 从“double”转换到“BYTE”，可能丢失数据
+E:\VScode\Xiangmu\彩色风车\game.cpp(26,10): warning C4244: “初始化”: 从“double”转换到“BYTE”，可能丢失数据
+E:\VScode\Xiangmu\彩色风车\game.cpp(69,13): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\彩色风车\game.cpp(73,25): warning C4838: 从“int”转换到“double”需要收缩转换
+E:\VScode\Xiangmu\彩色风车\game.cpp(79,26): warning C4838: 从“int”转换到“double”需要收缩转换
+E:\VScode\Xiangmu\彩色风车\game.cpp(87,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\彩色风车\game.cpp(98,26): warning C4838: 从“int”转换到“double”需要收缩转换
+E:\VScode\Xiangmu\彩色风车\game.cpp(106,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  彩色风车.vcxproj -> E:\VScode\Xiangmu\彩色风车\Debug\彩色风车.exe
