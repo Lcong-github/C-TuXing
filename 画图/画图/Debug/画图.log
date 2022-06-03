@@ -1,0 +1,48 @@
+﻿  algorithm.cpp
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(15,16): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(17,34): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(17,26): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(17,18): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(17,10): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(18,34): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(18,26): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(18,18): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(18,10): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(19,36): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(19,28): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(19,19): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(19,11): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(20,36): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(20,28): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(20,19): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(20,11): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(21,36): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(21,27): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(21,19): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(21,10): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(22,36): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(22,27): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(22,19): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(22,10): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(23,38): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(23,29): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(23,20): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(23,11): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(24,38): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(24,29): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(24,20): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(24,11): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(61,2): warning C4305: “=”: 从“double”到“float”截断
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(61,31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(70,26): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(70,20): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(70,14): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\algorithm.cpp(70,8): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  test.cpp
+  tool.cpp
+E:\VScode\Xiangmu\画图\画图\tool.cpp(160,22): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\tool.cpp(160,18): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\tool.cpp(160,14): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\VScode\Xiangmu\画图\画图\tool.cpp(160,10): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+  正在生成代码...
+  画图.vcxproj -> E:\VScode\Xiangmu\画图\Debug\画图.exe
