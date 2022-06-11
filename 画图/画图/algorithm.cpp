@@ -51,14 +51,11 @@ void FloodFILL(int x, int y, int bodercolor, int newcolor)//四连通泛填充算法
 }
 
 
-
-
-//(arr[0],acc[0])第一个点(arr[1],acc[1])第三个点(arr[2],acc[2])第二个点
 void BezierQuxian(int x1,int y1,int x2,int y2,int x3,int y3)//Bezier曲线
 {
 	float t = 0;
 
-	for (t = 0.001; t < 1; t = t + 0.001)
+	for (t = 0.001; t < 1; t = t + 0.00001)
 	{
 		float px01 = (1 - t) * x1 + t * x3;
 		float px11 = (1 - t) * x3 + t * x2;

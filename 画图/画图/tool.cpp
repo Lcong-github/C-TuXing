@@ -27,10 +27,12 @@ void Caidanlan()//菜单栏
 	rectangle(650, 10, 710, 40);    //画一个矩形边框
 	outtextxy(664, 17, L"填充");   //将这两字写在上面画的矩形边框里
 	rectangle(730, 10, 790, 40);    //画一个矩形边框
-	outtextxy(744, 17, L"清空");   //将这两字写在上面画的矩形边框里
+	outtextxy(744, 17, L"重启");   //将这两字写在上面画的矩形边框里
 	setcolor(WHITE);
 	line(0, 50, 800, 50);//菜单栏分界线
 }
+
+
 
 int Izhi(int i)//i值
 {
@@ -73,6 +75,7 @@ int Izhi(int i)//i值
 	}
 }
 
+
 void Huabi(int i)//实现画笔工具
 {
 	MOUSEMSG m;
@@ -85,6 +88,8 @@ void Huabi(int i)//实现画笔工具
 	{
 		m = GetMouseMsg();
 		x = m.x, y = m.y;
+		setfillcolor(BLACK);
+		solidrectangle(0, 570, 100, 600);
 		_stprintf_s(b, _T("[%d,%d]"), x, y);
 		//setcolor(WHITE);
 		outtextxy(0, 580, b);
@@ -129,6 +134,8 @@ void ZhixianYuan(int i,int j)//实现直线工具和画圆
 	{
 		m = GetMouseMsg();
 		x = m.x, y = m.y;
+		setfillcolor(BLACK);
+		solidrectangle(0, 570, 100, 600);
 		_stprintf_s(b, _T("[%d,%d]"), x, y);
 		//setcolor(WHITE);
 		outtextxy(0, 580, b);
@@ -177,6 +184,8 @@ void Quxian(int i)//实现曲线工具
 	{
 		m = GetMouseMsg();
 		x = m.x, y = m.y;
+		setfillcolor(BLACK);
+		solidrectangle(0, 570, 100, 600);
 		_stprintf_s(b, _T("[%d,%d]"), x, y);
 		//setcolor(WHITE);
 		outtextxy(0, 580, b);
@@ -231,6 +240,8 @@ void Tianchong()//实现填充工具
 	{
 		m = GetMouseMsg();
 		x = m.x, y = m.y;
+		setfillcolor(BLACK);
+		solidrectangle(0, 570, 100, 600);
 		_stprintf_s(b, _T("[%d,%d]"), x, y);
 		outtextxy(0, 580, b);
 
@@ -242,9 +253,6 @@ void Tianchong()//实现填充工具
 		{
 			
 				x = m.x, y = m.y;
-				//if (x >= 100 && x <= 140 && y >= 10 && y <= 40)//蓝
-				//newcolor = BLUE;
-				//flag = 1;
 				if (x >= 40 && x <= 80 && y >= 10 && y <= 40)//白
 				{
 					newcolor = WHITE;
