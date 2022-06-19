@@ -17,13 +17,17 @@ void Kaishi()
 void Shubiao()
 {
 	
-	A:Caidanlan();//菜单栏
+A:
+	IMAGE bgp;
+	loadimage(&bgp, L"./am.jpg", 80, 40, false);//加载图片
+	putimage(800, 560, &bgp);
+	Caidanlan();//菜单栏
 	int x = 0, y = 0;//存储鼠标坐标
 	int i = 0, j = 0;
 	MOUSEMSG m;// 定义消息变量
 	while (true)
 	{
-		m = GetMouseMsg();// 获取一条鼠标或按键消息
+		B:m = GetMouseMsg();// 获取一条鼠标或按键消息
 		setfillcolor(BLACK);
 		solidrectangle(0, 570, 100, 600); //用黑色矩形(界面是黑色)覆盖上次的坐标
 		//因为鼠标在移动的过程中坐标位置是不断变化的
@@ -144,9 +148,25 @@ void Shubiao()
 				rectangle(730, 10, 790, 40);    //画一个矩形边框
 				outtextxy(730 + 14, 17, L"重启");
 			}
+			else if (x >= 810 && x <= 870 && y >= 10 && y <= 40)//退出
+			{
+				j = 7;
+				setfillcolor(BLACK);  //设置实心颜色为绿
+				solidrectangle(810, 10, 870, 40);//画一个实心的绿色矩形
+				setfillcolor(GREEN);  //设置实心颜色为绿
+				solidrectangle(813, 13, 873, 43);//画一个实心的绿色矩形
+				setbkmode(TRANSPARENT);   				     //字符透明
+				settextcolor(RGB(97, 274, 255));
+				outtextxy(813 + 14, 20, L"退出");
+				Sleep(100);
+				setfillcolor(BLACK);  //设置实心颜色为绿
+				solidrectangle(810, 10, 873, 43);//画一个实心的绿色矩形
+				setcolor(WHITE);
+				rectangle(810, 10, 870, 40);    //画一个矩形边框
+				outtextxy(810 + 14, 17, L"退出");
+			}
 		}
 		i = Izhi(i);//判断i值在哪个颜色区域内并闪烁一次绿色，执行相应功能并重置i值为0
-		//Jzhi(j);//判断j值并执行相应功能
 		if (j == 1 && m.y >= 50)
 		{
 			
@@ -173,6 +193,44 @@ void Shubiao()
 			cleardevice();//用背景色清空屏幕
 			goto A;
 		}
+		if (j == 7)//退出
+		{
+			setfillcolor(WHITE);  //设置实心颜色为白
+			solidrectangle(310, 210, 570, 340);//画一个实心的红色矩形
+			while (1)
+			{
+				setbkmode(TRANSPARENT);   				     //字符透明
+				settextcolor(BLACK);
+				outtextxy(320, 220, L"是否确认退出？");
+				setcolor(BLACK);
+				rectangle(330, 300, 390, 330);    //画一个矩形边框
+				outtextxy(344, 307, L"确认");   //将这两字写在上面画的矩形边框里
+				rectangle(410, 300, 470, 330);    //画一个矩形边框
+				outtextxy(424, 307, L"重启");   //将这两字写在上面画的矩形边框里
+				rectangle(490, 300, 550, 330);    //画一个矩形边框
+				outtextxy(504, 307, L"取消");   //将这两字写在上面画的矩形边框里
+				MOUSEMSG k;// 定义消息变量
+				k = GetMouseMsg();// 获取一条鼠标或按键消息
+				if (k.uMsg == WM_LBUTTONDOWN)//判断鼠标点击位置
+				{
+					if (k.x >= 330 && k.x <= 390 && k.y >= 300 && k.y <= 330)
+					{
+						closegraph();			// 关闭图形界面
+					}
+					if (k.x >= 410 && k.x <= 470 && k.y >= 300 && k.y <= 330)
+					{
+						cleardevice();//用背景色清空屏幕
+						goto A;
+					}
+					if (k.x >= 490 && k.x <= 550 && k.y >= 300 && k.y <= 330)
+					{
+						setfillcolor(BLACK);  //设置实心颜色为白
+						solidrectangle(310, 210, 570, 340);//画一个实心的红色矩形
+						goto A;
+					}
+				}
+			}
+		}
 
 	}
 
@@ -182,11 +240,10 @@ void Shubiao()
 int main()
 {
 	Kaishi();//开始
-	initgraph(800, 600);
-	IMAGE bgp;
-	loadimage(&bgp, L"./am.jpg", 80, 40, false);//加载图片
-	putimage(720, 560, &bgp);
+	initgraph(880, 600);
 
+	setbkcolor(BLACK);//设置背景色
+	cleardevice();//使用背景色清屏
 	Shubiao();//开始判断鼠标坐标
 	_getch();				// 按任意键继续
 	closegraph();			// 关闭图形界面

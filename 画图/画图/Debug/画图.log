@@ -1,6 +1,4 @@
-﻿  tool.cpp
-E:\VScode\Xiangmu\画图\画图\tool.cpp(167,22): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-E:\VScode\Xiangmu\画图\画图\tool.cpp(167,18): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-E:\VScode\Xiangmu\画图\画图\tool.cpp(167,14): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
-E:\VScode\Xiangmu\画图\画图\tool.cpp(167,10): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+﻿  test.cpp
+E:\VScode\Xiangmu\画图\画图\test.cpp(15,2): warning C4551: 缺少参数列表的函数调用
+E:\VScode\Xiangmu\画图\画图\test.cpp(30,4): warning C4102: “B”: 未引用的标签
   画图.vcxproj -> E:\VScode\Xiangmu\画图\Debug\画图.exe
